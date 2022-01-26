@@ -3,7 +3,7 @@
 - metaData:
     id: "yeastGEM_v8.5.0"
     name: "The Consensus Genome-Scale Metabolic Model of Yeast"
-    date: "2022-01-11"
+    date: "2022-01-26"
 - metabolites:
     - !!omap
       - id: "s_0001"
@@ -90205,7 +90205,6 @@
           - s_0358: -1
       - lower_bound: -1000
       - upper_bound: 1000
-      - gene_reaction_rule: "AGOS_AFR622W"
       - subsystem:
           - ""
       - annotation: !!omap
@@ -111381,9 +111380,6 @@
     - !!omap
       - id: "YBR0411"
       - name: "YBR0411"
-    - !!omap
-      - id: "AGOS_AFR622W"
-      - name: "AGOS_AFR622W"
     - !!omap
       - id: "YOR153W"
       - name: "PDR5"
